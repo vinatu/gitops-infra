@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: vinatu/gitops01:d00e6333b336027b4c13eebd495e94a286e2b40d
+          image: vinatu/react-app:f6571bd1cd8b321f538546d2fa06791f0413400f
           imagePullPolicy: Always
           ports:
             - containerPort: 80
